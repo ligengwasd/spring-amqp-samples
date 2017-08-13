@@ -26,7 +26,7 @@ public class ProducerConfiguration {
 
 	@Bean
 	public ConnectionFactory connectionFactory() {
-		CachingConnectionFactory connectionFactory = new CachingConnectionFactory("localhost");
+		CachingConnectionFactory connectionFactory = new CachingConnectionFactory("47.93.100.245");
 		connectionFactory.setUsername("guest");
 		connectionFactory.setPassword("guest");
 		return connectionFactory;
